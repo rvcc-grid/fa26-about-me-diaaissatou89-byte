@@ -1,0 +1,46 @@
+body {
+    font-family: "Arimo", sans-serif;
+    background-color: #171442;
+    color: black;
+    margin:0;
+    padding:0;
+    line-height:1.5;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: #504818;
+    font-family: "Isometra", sans-serif;
+}
+h1{
+    font-size:40pt;
+}
+header {
+    text-align:center;
+    background-color:#421814;
+    padding:10px;
+}
+
+#hero {
+   color:#6A6796;
+    background: color #421814;
+    text-align:center;
+    padding: 10px;
+}
+
+#hero img {
+    width: 200px;
+    height: 200px;
+}
+footer{
+    text-align:center;
+    background-color:#421814;
+    padding:10px;
+}
+#bio {
+    text-align:center;
+}
+
+#hobbies ul li {
+   color:#6A6796;
+    text-align:center;
+}
