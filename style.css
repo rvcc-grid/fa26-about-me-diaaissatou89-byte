@@ -1,7 +1,7 @@
 body {
     font-family: "Arimo", sans-serif;
     background-color: #2e2976;
-    color: black;
+    color: rgb(107, 160, 207);
     margin:0;
     padding:0;
     line-height:1.5;
@@ -48,9 +48,44 @@ footer{
 
 #gallery{
     border: 2px solid #6961dd;
+    margin-bottom: 2rem;
 }
 
 #gallery img{
     max-width: 100%;
     margin: 10px;
+}
+
+#gallery figure {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+#lit {
+    text-align:center;
+    background-color:#421814;
+    border: 2px solid #6961dd;
+    margin-bottom: 2rem;
+}
+#lit div {
+    padding:2rem;
+    margin: 0 auto;
+    max-width:40rem;
+}
+
+#lit div p {
+    padding:0.3rem 0;
+    color: #504818;
+    clear:both;
+}
+
+#lit div p:first-letter{
+    color:rgb(210, 246, 9);
+    float:left;
+    font-size: 3em;
+    padding:.25em;
+    line-height:1;
+    border: 5px solid navy;
+    font-family: "Isometra", sans-serif;
+    background-color: #421814;
 }
